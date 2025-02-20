@@ -2,7 +2,7 @@
 
 This repository contains a Streamlit-based AI ChatBot that integrates with OpenRouter's API to provide real-time responses using AI models like Gemini 2.0 Flash Lite.
 
-##🔹 Features
+## 🔹 Features
 
 🌐 Powered by OpenRouter API (Supports various AI models like Google Gemini)
 
@@ -20,8 +20,9 @@ This repository contains a Streamlit-based AI ChatBot that integrates with OpenR
   
   Conversation history is maintained during the session.
 
-##🔹 Model Used
-  google/gemini-2.0-flash-lite-preview-02-05:free (Free-tier OpenRouter model)
+## 🔹 Model Used
+
+   google/gemini-2.0-flash-lite-preview-02-05:free (Free-tier OpenRouter model)
 
 ## 🔹 Future Enhancements
 
