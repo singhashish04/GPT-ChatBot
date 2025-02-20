@@ -19,7 +19,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # Streamlit Page Title
-st.title("🤖 OpenRouter ChatBot")
+st.title("🤖 ChatBot")
 
 # Display Chat History from Session State
 for message in st.session_state.chat_history:
