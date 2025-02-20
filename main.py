@@ -13,7 +13,10 @@ st.set_page_config(
 # Load OpenRouter API Key
 working_dir = os.path.dirname(os.path.abspath(__file__))
 config_data = json.load(open(f"{working_dir}/config.json"))
-OPENROUTER_API_KEY = config_data["OPENROUTER_API_KEY"]
+#OPENROUTER_API_KEY = config_data["OPENROUTER_API_KEY"]
+
+# Load API Key from Streamlit Secrets
+OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
 
 # Configure OpenRouter API
 client = openai.OpenAI(api_key=OPENROUTER_API_KEY, base_url="https://openrouter.ai/api/v1")
